@@ -1,6 +1,7 @@
 # Project Description
-This is a test project to learn about test automation. 
-The used technologies are Python and pytest 
+This is a test project to learn about test automation.
+
+The used technologies are Python and pytest.
 
 # Functions (main.py)
 - average: calculates the average of a list of values
@@ -14,4 +15,5 @@ Tests of the functions from main.py including edge cases
 
 # How to execute the tests
 pip install pytest
+
 pytest test_main.py
