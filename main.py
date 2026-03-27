@@ -32,7 +32,7 @@ def outliers(measurements, threshold):
     measurement_outliers = []
 
     for value in measurements:
-        diff = avg - value
+        diff = avg - value #deviation from average
         if diff > threshold or diff < -threshold:
             measurement_outliers.append(value)
 
